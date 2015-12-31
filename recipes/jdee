@@ -1,1 +1,8 @@
-(jdee :fetcher github :repo "jdee-emacs/jdee")
+(jdee :fetcher github :repo "jdee-emacs/jdee"
+      :files ("jdee-lisp/*.el" "CHANGES.md"
+      	      "jdee-live/clj"
+              "jdee-nrepl/src/jdee-nrepl")
+      ;; For testing.  Remove before using at MELPA
+      :branch "clojure-backend"
+
+      )
